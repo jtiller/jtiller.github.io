@@ -3,8 +3,21 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
 
+
+html {
+
+}
 body {
   background: url("images/grey_background.jpeg")
+}
+
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+
+div {
+    display: block;
 }
 
 .my_name {
@@ -16,9 +29,7 @@ body {
 }
 
 .icons {
-  margin: auto;
-  width: 100%;
-  height: 100%;
+
 }
 
 .left, .right, .mid {

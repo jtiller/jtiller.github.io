@@ -26,7 +26,22 @@ body {
     color: #20698c;
 }
 
+.left:hover ,.right:hover, .mid:hover{
+  background-color: white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
 .left img {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.mid img {
     display: block;
     margin: auto;
     padding: 10px;

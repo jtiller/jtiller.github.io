@@ -28,6 +28,17 @@ div {
   font-family: 'PT Sans Caption', sans-serif;
   font-weight: bold;
 }
+ .intro {
+   color: white;
+   text-align: justify;
+   font-size: 20px;
+   font-family: 'PT Sans Caption', sans-serif;
+   margin: 20px;
+   padding: 20px;
+ }
+
+
+
 
 .icons {
 

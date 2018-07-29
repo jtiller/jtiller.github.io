@@ -1,0 +1,35 @@
+
+/* This is a single-line comment */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
+
+body {
+  background: url("images/grey_background.jpeg")
+}
+
+.my_name {
+  color:white;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+}
+
+.left, .right, .mid {
+    background-color: rgba(214, 217, 219, 0.9);
+    border-radius: 12px;
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    color: #20698c;
+}
+
+.left img {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+}
